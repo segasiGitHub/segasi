@@ -16,7 +16,7 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <img src="logo-segasi-1.png" alt="HTML5 Icon" style="width:60px;height:60px;">
-      <a id="logo-container" href="#" class="brand-logo">&nbsp;Segasi</a>
+      <a id="logo-container" href="index.html" class="brand-logo"><div class="hide-on-small-only"><br><br></div>&nbsp;Segasi</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="twitter.png"></a></li>
         <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img src="facebook.png"></a></li>
@@ -25,23 +25,16 @@
 
 <ul id="slide-out" class="side-nav">
     <li><div class="user-view">
-      <div class="background">
-        <img src="matrix.png">
-      </div>
       <a class="center-align"> <img src="logo-segasi.png" style="width:100px;height:100px"></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">thumb_up</i>Siguenos!!</a></li>
+    <li><a href="#!"><i class="material-icons">thumb_up</i>¡ Síguenos !</a></li>
     <li><div class="divider"></div></li>
-    <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="icons-Twitter.png"><sup style="font-size:100%;">&nbsp;&nbsp;&nbsp;&nbsp;Twitter</sup></a></li>
-    <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img src="icons-Facebook.png"><sup style="font-size:100%;">&nbsp;&nbsp;&nbsp;&nbsp;Facebook</sup></a></li>
-    <li><a href="http://segasi.cl/reloj.html" target="_blank"><img src="icons-YouTube.png"><sup style="font-size:100%;">&nbsp;&nbsp;&nbsp;&nbsp;YouTube</sup></a></li>
+    <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="twitter.png">Twitter</a></li>
+    <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img class="slide-out-icon" src="facebook.png">Facebook</a></li>
+    <li><a href="/reloj.html" target="_blank"><img class="slide-out-icon" src="youtube.png">YouTube</a></li>
   </ul>
 
-
-
-
-  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
+  <a href="#" data-activates="slide-out" class="button-collapse"><div class="hide-on-small-only"><br><br></div><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
@@ -100,11 +93,14 @@
   <h5 class="center light">¡ Lo invitamos a descubrir los beneficios de la administración centralizada !</h5><br>
 
 
-  <div class="parallax-container valign-wrapper">
+  <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h3 class="header col s12 light black-text">Somos jóvenes profesionales creativos, innovadores y estamos enfocados en la satisfacción de nuestros clientes</h3>
+            <h3 class="header col s12 light black-text ">
+              <div class="hide-on-med-and-down"><br></div>
+              <div class="hide-on-small-only"><br></div>
+              Somos jóvenes profesionales creativos, innovadores y estamos enfocados en la satisfacción de nuestros clientes</h3>
         </div>
       </div>
     </div>
@@ -116,36 +112,35 @@
 
       <div class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contactanos</h4>
 <!-- formulario inicio-->
-<div class="z-depth-5" class="col s6">
   <div class="row">
       <form class="col s12">
         <div class="row">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contactanos</h4>
 
           <div class="input-field col s12">
             <i class="material-icons prefix">account_circle</i>
             <input id="icon_prefix" type="text" class="validate">
-            <label for="icon_prefix">Name</label>
+            <label for="icon_prefix">Nombre</label>
           </div>
 
-          <div class="input-field col s6">
+          <div class="input-field col l6 m12 s12">
             <i class="material-icons prefix">phone</i>
             <input id="icon_telephone" type="tel" class="validate">
-            <label for="icon_telephone">Telefono</label>
+            <label for="icon_telephone">  Telefono</label>
           </div>
 
-          <div class="input-field col s6">
+          <div class="input-field col l6 m12 s12">
             <i class="material-icons prefix">email</i>
             <input id="email" type="email" class="validate">
-            <label for="email" data-error="wrong" data-success="right">Email</label>
+            <label for="email" data-error="Verifique la dirección de correo electrónico" data-success="Correo Válido">Correo</label>
           </div>
 
           <div class="input-field col s12">
               <i class="material-icons prefix">mode_edit</i>
               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Nota</label>
+              <label for="icon_prefix2">Mensaje</label>
           </div>
 
           <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
@@ -155,34 +150,14 @@
         </div>
       </form>
 </div>
-</div>
 <!-- formulario fin-->
         </div>
       </div>
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
-        </div>
-      </div>
-    </div>
+ <div id="map"></div>
 
-
-
-
-
-    <!--
-   https://www.google.cl/maps/place/Av.+Nueva+Providencia+1363,+Providencia,+Regi%C3%B3n+Metropolitana/@-33.4292371,-70.6208886,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cf6327f8b799:0xfe1a86fb02cc64e3!8m2!3d-33.4292371!4d-70.6186999
-  -->
-    <div class="parallax">
-        <a class="carousel-item" href="http://materializecss.com/grid.html"><img src="direccion-segasi.png"></a>
-      <img src="direccion-segasi.png" alt="Unsplashed background img 3">
-    </div>
-  </div>
 
   <footer class="page-footer teal">
       <div class="container">
@@ -217,6 +192,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnSpciOYPymGqc27IgQ4lrByEQOPLLuX4&callback=initMap"></script>
+  <script src="js/map.js"></script>
 
   </body>
 </html>

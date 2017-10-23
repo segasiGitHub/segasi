@@ -6,6 +6,17 @@
  * Made By MaterializeCSS.com
  */
 
+ #map {
+   height: 400px;
+   width: 100%;
+   background-color: grey;
+  }
+
+.slide-out-icon {
+  float: left;
+  margin: 3% 10% 3% 0;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
