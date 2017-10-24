@@ -117,29 +117,29 @@
 
           <div class="input-field col s12">
             <i class="material-icons prefix">face</i>
-            <input id="icon_prefix" type="text" class="validate">
-            <label for="icon_prefix">Nombre</label>
+            <input id="contact" type="text">
+            <label for="contact">Nombre</label>
           </div>
 
           <div class="input-field col l6 m12 s12">
             <i class="material-icons prefix">phone</i>
-            <input id="icon_telephone" type="tel" class="validate">
-            <label for="icon_telephone">  Telefono</label>
+            <input id="phone" type="tel" class="validate">
+            <label for="phone">Telefono</label>
           </div>
 
           <div class="input-field col l6 m12 s12">
             <i class="material-icons prefix">email</i>
-            <input id="email" type="email" class="validate">
-            <label for="email" data-error="Verifique la dirección de correo electrónico" data-success="Correo Válido">Correo</label>
+            <input id="mail" type="email" class="validate">
+            <label for="mail" data-error="Verifique la dirección de correo electrónico" data-success="Correo Válido">Correo</label>
           </div>
 
           <div class="input-field col s12">
               <i class="material-icons prefix">mode_edit</i>
-              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Mensaje</label>
+              <textarea id="message" class="materialize-textarea"></textarea>
+              <label for="message">Mensaje</label>
           </div>
 
-          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+          <button class="btn waves-effect waves-light" onclick="addContact(); return false">Enviar
               <i class="material-icons right">send</i>
           </button>
 
@@ -147,6 +147,10 @@
       </form>
 </div>
 <!-- formulario fin-->
+
+ <h4 id="resultado" class="header light white-text"><?php include('contacto.php');?></h4>
+
+
         </div>
       </div>
     </div>
@@ -193,6 +197,7 @@
   <script src="js/init.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnSpciOYPymGqc27IgQ4lrByEQOPLLuX4&callback=initMap"></script>
   <script src="js/map.js"></script>
+  <script src="js/ajax.js"></script>
 
   </body>
 </html>
