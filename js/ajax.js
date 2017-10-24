@@ -30,11 +30,11 @@ function addContact(){
   phone = document.getElementById('phone');
   mail = document.getElementById('mail');
   message = document.getElementById('message');
- 
+
   //instanciamos el objetoAjax
   ajax=objetoAjax();
- 
-  //uso del medotod POST
+
+  //uso del medoto POST
   //archivo que realizará la operacion
   //registro.php
   ajax.open("POST", "contacto.php", true);
@@ -49,10 +49,10 @@ function addContact(){
 	}
  }
 	ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
-	//enviando los valores a registro.php para que inserte los datos
+	//enviando los valores a contacto.php para que inserte los datos
 	ajax.send("name="+contact.value+"&phone="+phone.value+"&mail="+mail.value+"&message="+message.value);
 }
- 
+
 //función para limpiar los campos
 function ResetFields(){
   contact.value="";
