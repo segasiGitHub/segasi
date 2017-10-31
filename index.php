@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="shortcut icon" href="logo-segasi-1.png" />
+  <link rel="shortcut icon" href="logo-segasi-1-min.png" />
   <title>Segasi</title>
 
   <!-- CSS  -->
@@ -14,23 +15,23 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <img src="logo-segasi-1.png" alt="HTML5 Icon" style="width:60px;height:60px;">
+      <img src="img/logo-segasi-1-min.png" alt="HTML5 Icon" style="width:60px;height:60px;">
       <a id="logo-container" href="index.php" class="brand-logo"><div class="hide-on-small-only"><br><br></div>&nbsp;Segasi</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="twitter.png"></a></li>
-        <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img src="facebook.png"></a></li>
-        <li><a href="./reloj.html" target="_blank"><img src="youtube.png"></a></li>
+        <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="img/twitter-min.png"></a></li>
+        <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img src="img/facebook-min.png"></a></li>
+        <li><a href="./reloj.html" target="_blank"><img src="img/youtube-min.png"></a></li>
 </ul>
 
 <ul id="slide-out" class="side-nav">
     <li><div class="user-view">
-      <a class="center-align"> <img src="logo-segasi.png" style="width:100px;height:100px"></a>
+      <a class="center-align"> <img src="img/logo-segasi-min.png" style="width:100px;height:100px"></a>
     </div></li>
     <li><a href="#!"><i class="material-icons">thumb_up</i>¡ Síguenos !</a></li>
     <li><div class="divider"></div></li>
-    <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="twitter.png">Twitter</a></li>
-    <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img class="slide-out-icon" src="facebook.png">Facebook</a></li>
-    <li><a href="./reloj.html" target="_blank"><img class="slide-out-icon" src="youtube.png">YouTube</a></li>
+    <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="img/twitter-min.png">Twitter</a></li>
+    <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img class="slide-out-icon" src="img/facebook-min.png">Facebook</a></li>
+    <li><a href="./reloj.html" target="_blank"><img class="slide-out-icon" src="img/youtube-min.png">YouTube</a></li>
   </ul>
 
   <a href="#" data-activates="slide-out" class="button-collapse"><div class="hide-on-small-only"><br><br></div><i class="material-icons">menu</i></a>
@@ -48,7 +49,7 @@
 
       </div>
     </div>
-    <div class="parallax"><img src="compute.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/compute-min.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -99,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/background2-min.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -138,7 +139,7 @@
               <label for="message">Mensaje</label>
           </div>
 
-          <button class="btn waves-effect waves-light" onclick="addContact(); return false">Enviar
+          <button class="btn waves-effect waves-light" type="submit" onclick="addContact(); return false">Enviar
               <i class="material-icons right">send</i>
           </button>
 
@@ -163,6 +164,8 @@
    </a>
  </div>
 
+
+
   <footer class="page-footer teal">
       <div class="container">
         <div class="row">
@@ -172,8 +175,8 @@
           <div class="col s12 l12 white-text">
             <ul>
               <li>Nueva Providencia #1363, Oficina 1205, Providencia</li>
-  	          <li><a href="mailto:contacto@segasi.cl">contacto@segasi.cl</a></li>
-              <li><a href="tel:+56961501279">+56961501279</a></li>
+  	          <li><a class="brown-text text-lighten-3" href="mailto:contacto@segasi.cl">contacto@segasi.cl</a></li>
+              <li><a class="brown-text text-lighten-3" href="tel:+56961501279">+56961501279</a></li>
             </ul>
           </div>
         </div>
@@ -186,6 +189,7 @@
         </div>
       </div>
     </footer>
+
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
