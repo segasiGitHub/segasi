@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,7 +7,6 @@
   <title>Segasi</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
@@ -19,7 +17,7 @@
       <a id="logo-container" href="index.php" class="brand-logo"><div class="hide-on-small-only"><br><br></div>&nbsp;Segasi</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="img/twitter-min.png"></a></li>
-        <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img src="img/facebook-min.png"></a></li>
+        <li><a href="http://fb.me/segasi.cl" target="_blank"><img src="img/facebook-min.png"></a></li>
         <li><a href="./reloj.html" target="_blank"><img src="img/youtube-min.png"></a></li>
 </ul>
 
@@ -30,7 +28,7 @@
     <li><a href="#!"><i class="material-icons">thumb_up</i>¡ Síguenos !</a></li>
     <li><div class="divider"></div></li>
     <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="img/twitter-min.png">Twitter</a></li>
-    <li><a href="https://www.facebook.com/segasi.cl" target="_blank"><img class="slide-out-icon" src="img/facebook-min.png">Facebook</a></li>
+    <li><a href="http://fb.me/segasi.cl" target="_blank"><img class="slide-out-icon" src="img/facebook-min.png">Facebook</a></li>
     <li><a href="./reloj.html" target="_blank"><img class="slide-out-icon" src="img/youtube-min.png">YouTube</a></li>
   </ul>
 
