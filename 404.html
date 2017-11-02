@@ -14,7 +14,7 @@
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <img src="img/logo-segasi-1-min.png" alt="HTML5 Icon" style="width:60px;height:60px;">
-      <a id="logo-container" href="index.php" class="brand-logo"><div class="hide-on-small-only"><br><br></div>&nbsp;Segasi</a>
+      <a id="logo-container" href="." class="brand-logo"><div class="hide-on-small-only"><br><br></div>&nbsp;Segasi</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="img/twitter-min.png"></a></li>
         <li><a href="http://fb.me/segasi.cl" target="_blank"><img src="img/facebook-min.png"></a></li>
@@ -25,7 +25,7 @@
     <li><div class="user-view">
       <a class="center-align"> <img src="img/logo-segasi-min.png" style="width:100px;height:100px"></a>
     </div></li>
-    <li><a href="#!"><i class="material-icons">thumb_up</i>¡ Síguenos !</a></li>
+    <li><a><i class="material-icons">thumb_up</i>¡ Síguenos !</a></li>
     <li><div class="divider"></div></li>
     <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="img/twitter-min.png">Twitter</a></li>
     <li><a href="http://fb.me/segasi.cl" target="_blank"><img class="slide-out-icon" src="img/facebook-min.png">Facebook</a></li>
