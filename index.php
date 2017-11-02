@@ -18,7 +18,7 @@
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="https://twitter.com/_Segasi" target="_blank"><img src="img/twitter-min.png"></a></li>
         <li><a href="http://fb.me/segasi.cl" target="_blank"><img src="img/facebook-min.png"></a></li>
-        <li><a href="./reloj.html" target="_blank"><img src="img/youtube-min.png"></a></li>
+        <li><a href="https://www.youtube.com/channel/UCktZgUSYhKEg2AnEFpEJbBQ" target="_blank"><img src="img/youtube-min.png"></a></li>
 </ul>
 
 <ul id="slide-out" class="side-nav">
@@ -29,7 +29,7 @@
     <li><div class="divider"></div></li>
     <li><a href="https://twitter.com/_Segasi" target="_blank"><img class="slide-out-icon" src="img/twitter-min.png">Twitter</a></li>
     <li><a href="http://fb.me/segasi.cl" target="_blank"><img class="slide-out-icon" src="img/facebook-min.png">Facebook</a></li>
-    <li><a href="./reloj.html" target="_blank"><img class="slide-out-icon" src="img/youtube-min.png">YouTube</a></li>
+    <li><a href="https://www.youtube.com/channel/UCktZgUSYhKEg2AnEFpEJbBQ" target="_blank"><img class="slide-out-icon" src="img/youtube-min.png">YouTube</a></li>
   </ul>
 
   <a href="#" data-activates="slide-out" class="button-collapse"><div class="hide-on-small-only"><br><br></div><i class="material-icons">menu</i></a>
