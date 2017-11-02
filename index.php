@@ -157,7 +157,7 @@
  <div id="map"></div>
 
  <div class="fixed-action-btn">
-   <a class="btn-floating btn-large teal lighten-2 tooltipped" data-position="left" data-delay="50" data-tooltip="Ir al Portafolio" href="./portfolio.html">
+   <a class="btn-floating btn-large teal lighten-2 tooltipped waves-circle" data-position="left" data-delay="50" data-tooltip="Ir al Portafolio" href="./portfolio.html">
      <i class="large material-icons">work</i>
    </a>
  </div>
